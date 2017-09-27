@@ -1,0 +1,41 @@
+data hidding:
+	
+	     1)outside person cant access our internal data directly
+	     2)our internal data should not go out directly
+	     3)by declaring data member(var) as private we can achieve data hidding.
+
+
+Abstraction:
+
+		hiding internal implementation and just highlight the set of service
+		we are offering is a concept of abstraction.
+		
+		advantages:
+
+			a)security
+			b)enhacement becomes easy
+			c)maintainance is easy
+
+Encapsulation:
+
+		the process of binding data member and the corresponding methods into a 
+		single unit is nothng but encapsulation.
+		data hidind + abstraction == encapsulation.
+
+		advantage: we can achieve security
+		disadvantage: it increases length of code and slows down execution.
+
+
+tightly encapsulation class:
+
+				each and every variable in a class is declare as 
+				a private then it is tigthly encapsulation.
+				whether class contains correspoding getter and setter methods 
+				and whether these method declare as public or not we are not
+				require to check.
+
+				if parent class is not tightly encapsulated than no child class
+				is tightly encapsulated.  
+
+ 
+		
